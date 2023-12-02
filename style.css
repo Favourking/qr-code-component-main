@@ -1,0 +1,72 @@
+/* */
+
+
+
+/* FONT*/
+@font-face {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+@font-face {
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+/* Style*/
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    margin: unset;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-family: Outfit, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+img {
+    /* max width*/
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.675rem;
+    width: 288px;
+    height: 288px;
+}
+
+/* Qr card Style*/
+main {
+    background-color: white;
+    max-width: 320px;
+    padding: 1.075rem;
+    border-radius: 1.35rem;
+    box-shadow: 0 1.6rem 1.6rem hsla(0, 8%, 0%, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Aligns content horizontally at the center */
+    justify-content: center;
+    /* Aligns content vertically at the center */
+    margin: 0 auto;
+    /* Centers the main element horizontally */
+    text-align: center;
+    /* Aligns text content within the main element */
+}
+
+h1 {
+    font-size: 1.375rem;
+    line-height: 1.275;
+    margin-top: 1.1em;
+}
